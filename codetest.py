@@ -7,8 +7,8 @@ while i < 3:
 	if answer == passward:
 		print('登入成功!')
 		break
-	elif j==0:
+		else:
+		print('密碼錯誤,您還有',j,'次機會')
+		if j ==0:
 		print ('您登入失敗了，跳出!!')
 		break
-	else:
-		print('密碼錯誤,您還有',j,'次機會')
